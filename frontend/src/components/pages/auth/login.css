@@ -1,0 +1,62 @@
+.form_design_container {
+  width: 70%;
+  height: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgb(109, 108, 108);
+}
+
+.banner_holder {
+  width: 50%;
+  height: 100%;
+}
+
+.login_form {
+  width: 50%;
+}
+
+.login_form input {
+  border-radius: 19px;
+}
+
+.login_form input[type="password"] {
+  padding-top: 0.6rem;
+}
+
+.login_btn {
+  outline: none;
+  border: none;
+  background-color: rgb(5, 103, 232);
+  color: white;
+  padding: 0.3rem 4rem;
+  border-radius: 14px;
+}
+
+.banner_holder img {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+}
+
+.login_form form {
+  padding: 4rem;
+}
+
+.login_form form div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error_container {
+  margin: 0.7rem 0 0.3rem 0;
+  background-color: rgb(235, 191, 191);
+  border-radius: 20px;
+  color: red;
+  font-size: 11px;
+}

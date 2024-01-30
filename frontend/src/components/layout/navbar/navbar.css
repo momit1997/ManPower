@@ -1,0 +1,47 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #012a70;
+  font-family: "Lobster", cursive;
+  /* margin-bottom: 1.5rem; */
+}
+
+nav div:first-child h4 {
+  color: rgb(235, 235, 3);
+  margin: 1rem;
+}
+
+.nav_link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+nav .nav_link a {
+  text-decoration: none;
+  color: white;
+  margin-top: 0.6rem;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.active {
+  /* text-decoration: underline !important; */
+  color: tomato !important;
+}
+
+.nav_pipe {
+  color: white;
+  font-size: 25px;
+  margin: 0 12px;
+}
+
+nav p {
+  color: white;
+  margin-right: 2rem;
+  margin-top: 0.6rem;
+  cursor: pointer;
+}

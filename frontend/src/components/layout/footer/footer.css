@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  /* margin-top: 2rem; */
+}
+
+footer div img {
+  width: 160px;
+  padding: 1rem;
+}
+
+footer div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+  margin: 5px 1rem 0 0;
+}

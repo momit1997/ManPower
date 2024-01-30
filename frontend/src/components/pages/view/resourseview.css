@@ -1,0 +1,12 @@
+.resourse_view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resourse_view table {
+  width: 60%;
+  margin: 2rem auto;
+  box-shadow: 2px 0px 11px rgb(135, 134, 134);
+  border-radius: 10px;
+}

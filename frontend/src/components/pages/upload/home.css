@@ -1,0 +1,51 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.file_upload_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+.file_upload_container .upload_box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.file_upload_container .upload_box .excel_file_upload_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted blue;
+  border-width: 3px;
+  padding: 2rem 8rem;
+}
+
+.excel_upload_btn {
+  outline: none;
+  border: none;
+  background-color: #0d6efd;
+  padding: 0.3rem 2rem;
+  color: white;
+  border-radius: 15px;
+}
+
+/* excel file display */
+.excel_file_name {
+  color: gray;
+}
+
+/* divider line  */
+
+.divider {
+  border-left: 3px dotted gray;
+  height: 400px;
+  margin-top: 3rem;
+}

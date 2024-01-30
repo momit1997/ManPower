@@ -1,0 +1,141 @@
+.fileUploadContainer {
+  width: 100vw;
+  height: 80vh;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  justify-content: center;
+}
+
+.fileUploadBox {
+  margin-top: 3rem;
+  background-color: white;
+  border-radius: 10px;
+  width: 45vw;
+  height: 55vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.fileUploadBox form {
+  width: 100%;
+}
+
+.uploadBox {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: rgb(176, 174, 174);
+  justify-content: center;
+}
+
+.excel_upload_btn {
+  outline: none;
+  border: none;
+  background-color: #0d6efd;
+  padding: 0.3rem 2rem;
+  color: white;
+  border-radius: 15px;
+  margin-top: 1rem;
+}
+
+.fileUpload_toggle {
+  display: flex;
+  height: 2vmax;
+}
+
+.fileUpload_toggle p {
+  transition: all 0.5s;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  place-items: center;
+  display: grid;
+  width: 100%;
+  margin: 0.7rem;
+}
+
+.fileUpload_toggle p:hover {
+  color: tomato;
+}
+
+.fileUploadBox div:first-child button {
+  background-color: tomato;
+  height: 3px;
+  width: 50%;
+  border: none;
+  transition: all 0.5s;
+}
+
+.manpower_form,
+.comment_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  padding: 2vmax;
+  height: 70%;
+  transition: all 0.5s;
+}
+
+.comment_form {
+  transform: translateY(-100%) translateX(-100vmax);
+}
+
+.manpower_form div,
+.comment_form div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.shiftToLeft {
+  transform: translateX(-100%);
+}
+
+.shiftToNeutral {
+  transform: translateX(0%);
+}
+
+.shiftToNeutralForm {
+  transform: translateX(0%) translateY(-100%);
+}
+
+.shiftToRight {
+  transform: translateX(100%);
+}
+
+@media screen and (max-width: 600px) {
+  .loginSignupBox {
+    background-color: white;
+    width: 80vw;
+    height: 60vh;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .manpower_form div input,
+  .comment_form div input {
+    padding: 1vmax 5vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+  }
+}
+
+.excel_file_name {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.download_template {
+  display: flex;
+  justify-content: flex-end;
+  font-size: small;
+  color: tomato;
+  cursor: pointer;
+}
